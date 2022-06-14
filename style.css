@@ -1,0 +1,177 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+   
+}
+header,.intro-section,footer {
+background: #1F2937;
+color: #E5E7EB
+}
+
+header {
+    padding:10px 0;
+    min-height: 5vh;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+nav {
+    max-width: 50%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    gap:20px;
+    list-style: none;
+}
+li {
+    color:#d4d4d4
+}
+.intro-section {
+    min-height: 40vh;
+    display: flex;
+    
+}
+.intro {
+    max-width: 50%;
+    margin:auto;
+    display: flex;
+    height: 240px;
+    gap:30px;
+    
+    
+}
+
+.intro-text h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+.intro-text p {
+   font-size: 18px;
+   margin:10px 0;
+   color:#d4d4d4;
+}
+img {
+    max-width: 100%;
+  
+}
+
+
+.info-section {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 40vh;
+
+}
+.info{
+    max-width: 50%;
+}
+.info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom:20px;
+}
+.cards {
+    display: flex;
+    gap: 30px;
+   
+}
+.card {
+    width: 150px;
+   
+}
+.cards img {
+    border:2px solid blue;
+    border-radius: 10px;
+    max-width: 100%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 5px;
+}
+
+.testimonial-section{
+    background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 35vh;
+
+}
+.testimonial-section div {
+    max-width: 50%;
+
+}
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 10px;
+}
+.author {
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    background:#3882F6;
+    padding:8px 30px;
+    border-radius:5px;
+  
+}
+
+.cta {
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta-container {
+    display: flex;
+    width: 50%;
+    background: #3882F6;
+    color:white;
+    padding:50px;
+   justify-content: space-around;
+   border-radius: 5px;
+    /* min-height: 15vh; */
+    align-items: center;
+    
+   
+    
+}
+.cta h5 {
+    font-size:  20px;
+}
+.cta p {
+    color: #E5E7EB;
+}
+
+.cta a {
+   border:2px solid white;
+   padding:10px 30px;
+}
+
+footer {
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
